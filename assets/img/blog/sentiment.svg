@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 170" preserveAspectRatio="xMidYMid slice">
+<defs>
+<radialGradient id="g" cx=".5" cy=".3" r=".65"><stop offset="0" stop-color="#7c3aed" stop-opacity=".5"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+<linearGradient id="kb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#201d2a"/><stop offset="1" stop-color="#0a090f"/></linearGradient>
+<linearGradient id="sg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a1650"/><stop offset="1" stop-color="#0e0a1a"/></linearGradient>
+</defs>
+<rect width="400" height="170" fill="#09080e"/>
+<rect width="400" height="170" fill="url(#g)"/>
+<polygon points="89,12 323,4 329,129 95,138" fill="#1b1924" stroke="#2e2b3a"/>
+<g transform="matrix(1 -0.0324 0.0556 1 98 20)">
+<rect width="216" height="108" fill="#120c20"/>
+<rect width="216" height="108" fill="url(#sg)"/><text x="14" y="30" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#e9e3ff" >Sentiment</text><text x="14" y="50" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#b9a9e8" >Brand Score</text><rect x="14" y="60" width="60" height="2.5" rx="1.25" fill="#8b5cf6" opacity="1"/><rect x="14" y="68" width="44" height="2.5" rx="1.25" fill="#4c3c78" opacity="1"/><rect x="14" y="76" width="52" height="2.5" rx="1.25" fill="#4c3c78" opacity="1"/><polyline points="110,72.3 115,68.5 120,64.5 125,65 130,73 135,69.2 140,62.4 145,62.9 150,61.7 155,58.3 160,53 165,53.6 170,50.5 175,53.6 180,47.3 185,50.1 190,42.5 195,46.1 200,44.3 205,37.8 210,34.9" fill="none" stroke="#c4b5fd" stroke-width="1.4"/><circle cx="180" cy="36" r="14" fill="none" stroke="#8b5cf6" stroke-width="5" stroke-dasharray="55 88" transform="rotate(-90 180 36)"/><circle cx="180" cy="36" r="14" fill="none" stroke="#4ade80" stroke-width="5" stroke-dasharray="22 88" stroke-dashoffset="-56" transform="rotate(-90 180 36)"/>
+</g>
+<polygon points="66,140 352,129 400,170 8,170" fill="url(#kb)"/>
+<g stroke="#2c2937" stroke-width="1" opacity=".8">
+<line x1="80" y1="148" x2="345" y2="138"/><line x1="70" y1="156" x2="358" y2="145"/><line x1="58" y1="164" x2="370" y2="152"/>
+</g>
+</svg>

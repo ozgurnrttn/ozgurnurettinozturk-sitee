@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="bl.meta.title">Blog | Özgür Nurettin Öztürk</title>
+  <meta name="description" content="Veri analizi, sosyal medya, görselleştirme ve teknoloji üzerine yazılar: Özgür Nurettin Öztürk'ün öğrendikleri ve deneyimleri.">
+  <meta name="theme-color" content="#0b0a11">
+  <link rel="icon" href="assets/img/favicon-64.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body>
+
+  <!-- ================= Header ================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Özgür Nurettin Öztürk — Ana Sayfa" data-i18n-attr="aria-label:ui.home">
+        <img src="assets/img/logo-fox-120.png" alt="" class="brand-logo" width="184" height="120">
+        <span>
+          <span class="brand-name">Özgür Nurettin Öztürk</span>
+          <span class="brand-tagline">DATA &amp; INSIGHTS</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Ana menü">
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Ana Sayfa</a></li>
+          <li><a href="hakkimda.html" data-i18n="nav.about">Hakkımda</a></li>
+          <li><a href="projeler.html" data-i18n="nav.projects">Projeler</a></li>
+          <li><a href="blog.html" aria-current="page" data-i18n="nav.blog">Blog</a></li>
+          <li><a href="hizmetler.html" data-i18n="nav.services">Hizmetler</a></li>
+          <li><a href="cv.html" data-i18n="nav.cv">CV</a></li>
+          <li><a href="iletisim.html" data-i18n="nav.contact">İletişim</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="icon-btn lang-btn" data-lang-toggle>EN</button>
+        <button type="button" class="icon-btn" data-theme-toggle aria-label="Temayı değiştir" data-i18n-attr="aria-label:ui.theme">
+          <svg class="icon theme-icon-moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 14.3A8.5 8.5 0 0 1 9.7 3.5a8.5 8.5 0 1 0 10.8 10.8z"/></svg>
+          <svg class="icon theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <a href="iletisim.html" class="btn btn-outline btn-sm header-cta" data-i18n="header.cta">Benimle İletişime Geç</a>
+        <button type="button" class="icon-btn menu-btn" data-menu-toggle aria-controls="site-nav" aria-expanded="false" aria-label="Menüyü aç" data-i18n-attr="aria-label:ui.menu">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= Intro ================= -->
+    <section class="pj-hero force-dark">
+      <div class="pj-hero-bg pj-hero-bg--blog" aria-hidden="true"></div>
+      <div class="container pj-hero-inner">
+        <div class="pj-hero-text">
+          <span class="eyebrow hero-eyebrow eyebrow--accent">Blog</span>
+          <h1 class="page-title" data-i18n="bl.title">Analiz, içgörü ve<br><span class="gradient-text">daha fazlası.</span></h1>
+          <p data-i18n="bl.text">Veri analizi, sosyal medya, görselleştirme ve teknoloji üzerine yazdığım yazılarda, öğrendiklerimi ve deneyimlerimi paylaşıyorum.</p>
+
+          <ul class="feature-strip">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>
+              <strong data-i18n="bl.h1.t">Gerçek Deneyim</strong>
+              <span data-i18n="bl.h1.s">Saha tecrübelerinden notlar</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg>
+              <strong data-i18n="bl.h2.t">Uygulanabilir Bilgi</strong>
+              <span data-i18n="bl.h2.s">Pratik ipuçları</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="7.5" r="3.5"/><circle cx="5" cy="9" r="2.5"/><circle cx="19" cy="9" r="2.5"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0zM0 19a5 5 0 0 1 6.6-4.7A8.4 8.4 0 0 0 4 19zM24 19a5 5 0 0 0-6.6-4.7A8.4 8.4 0 0 1 20 19z"/></svg>
+              <strong data-i18n="bl.h3.t">Güncel Trendler</strong>
+              <span data-i18n="bl.h3.s">Sektörden gelişmeler</span>
+            </li>
+            <li class="is-green">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="3" y="14" width="3.5" height="7" rx="1"/><rect x="8.5" y="10" width="3.5" height="11" rx="1"/><rect x="14" y="6" width="3.5" height="15" rx="1"/><rect x="19.5" y="2" width="3.5" height="19" rx="1"/></svg>
+              <strong data-i18n="bl.h4.t">Daha Fazla İçgörü</strong>
+              <span data-i18n="bl.h4.s">Veriden ilham alan içerikler</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="pj-hero-side pj-hero-side--end">
+          <figure class="side-quote">
+            <svg viewBox="0 0 32 24" fill="currentColor" aria-hidden="true"><path d="M0 24V14C0 6.5 4 1.6 11 0l1.4 3.3C8.3 4.8 6.4 7.7 6.2 11H12v13zm18 0V14c0-7.5 4-12.4 11-14l1.4 3.3c-4.1 1.5-6 4.4-6.2 7.7H30v13z"/></svg>
+            <p data-i18n="bl.quote">Daha iyi sorular,<br>daha iyi analizler,<br>daha parlak yarınlar.</p>
+          </figure>
+          <ul class="hero-words" aria-hidden="true">
+            <li>Better</li>
+            <li>Insights</li>
+            <li>Brighter</li>
+            <li>Tomorrows</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Posts ================= -->
+    <section class="section pj-list">
+      <div class="container">
+        <div class="pj-toolbar" id="yazilar" data-filter-top>
+          <div class="filter-list filter-list--compact" role="group" aria-label="Yazıları kategoriye göre filtrele" data-i18n-attr="aria-label:bl.filterLabel">
+            <button type="button" class="filter-btn" data-filter="all" aria-pressed="true" data-i18n="pj.f.all">Tümü</button>
+            <button type="button" class="filter-btn" data-filter="veri-analizi" aria-pressed="false" data-i18n="pj.f.analysis">Veri Analizi</button>
+            <button type="button" class="filter-btn" data-filter="sosyal-medya" aria-pressed="false" data-i18n="pj.f.social">Sosyal Medya</button>
+            <button type="button" class="filter-btn" data-filter="veri-gorsellestirme" aria-pressed="false" data-i18n="pj.f.viz">Veri Görselleştirme</button>
+            <button type="button" class="filter-btn" data-filter="kariyer" aria-pressed="false" data-i18n="bl.f.career">Kariyer</button>
+            <button type="button" class="filter-btn" data-filter="araclar" aria-pressed="false" data-i18n="bl.f.tools">Araçlar</button>
+            <button type="button" class="filter-btn" data-filter="teknoloji" aria-pressed="false" data-i18n="bl.f.tech">Teknoloji</button>
+            <button type="button" class="filter-btn" data-filter="icgoru" aria-pressed="false" data-i18n="bl.f.insight">İçgörü</button>
+            <button type="button" class="filter-btn" data-filter="yasam" aria-pressed="false" data-i18n="bl.f.life">Yaşam</button>
+          </div>
+          <label class="search">
+            <span class="sr-only" data-i18n="bl.searchLabel">Yazı ara</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <input type="search" placeholder="Yazı ara..." data-filter-search data-i18n-attr="placeholder:bl.search" autocomplete="off">
+          </label>
+        </div>
+
+        <div class="blog-layout">
+          <div>
+            <div class="article-grid">
+
+              <article class="article-card reveal" id="sentiment-analizi-nedir" data-category="sosyal-medya veri-analizi">
+                <img src="assets/img/blog/sentiment.svg" alt="" loading="lazy" width="400" height="170">
+                <div class="article-body">
+                  <div class="post-meta">
+                    <time datetime="2025-09-03" data-i18n="b1.date">3 Eylül 2025</time>
+                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="rt.6">6 dk</span></span>
+                  </div>
+                  <h3 data-i18n="b1.title">Sentiment Analizi Nedir? Markalar İçin Önemi</h3>
+                  <p data-i18n="bl.e1">Sosyal medyada markalar hakkında konuşulanları anlamak, sadece negatif yorumları görmekten çok daha fazlasıdır.</p>
+                  <ul class="chip-list"><li data-i18n="p1.tag">Sosyal Medya</li><li data-i18n="p3.tag">Veri Analizi</li><li>Brandwatch</li></ul>
+                  <a href="#sentiment-analizi-nedir" class="link-arrow stretched-link"><span data-i18n="bl.readMore">Devamını Oku</span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                </div>
+              </article>
+
+              <article class="article-card reveal" id="power-bi-dashboard" data-category="veri-gorsellestirme araclar">
+                <img src="assets/img/blog/power-bi.svg" alt="" loading="lazy" width="400" height="170">
+                <div class="article-body">
+                  <div class="post-meta">
+                    <time datetime="2025-08-28" data-i18n="b2.date">28 Ağustos 2025</time>
+                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="rt.6">6 dk</span></span>
+                  </div>
+                  <h3 data-i18n="b2.title">Power BI Dashboard Tasarlarken Dikkat Edilmesi Gerekenler</h3>
+                  <p data-i18n="bl.e2">Etkili bir dashboard, sadece veri göstermemeli aynı zamanda doğru karar almayı kolaylaştırmalıdır. Bu yazıda dikkat edilmesi gereken temel noktaları paylaşıyorum.</p>
+                  <ul class="chip-list"><li data-i18n="p2.tag">Veri Görselleştirme</li><li>Power BI</li><li>Dashboard</li></ul>
+                  <a href="#power-bi-dashboard" class="link-arrow stretched-link"><span data-i18n="bl.readMore">Devamını Oku</span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                </div>
+              </article>
+
+              <article class="article-card reveal" id="python-veri-temizleme" data-category="veri-analizi araclar">
+                <img src="assets/img/blog/python.svg" alt="" loading="lazy" width="400" height="170">
+                <div class="article-body">
+                  <div class="post-meta">
+                    <time datetime="2025-08-15" data-i18n="b3.date">15 Ağustos 2025</time>
+                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="rt.7">7 dk</span></span>
+                  </div>
+                  <h3 data-i18n="b3.title">Python ile Veri Temizleme: Pratik İpuçları</h3>
+                  <p data-i18n="bl.e3">Gerçek hayattan örneklerle, dağınık verileri temizlemek için kullandığım pratik yöntemleri açıklıyorum.</p>
+                  <ul class="chip-list"><li>Python</li><li data-i18n="p3.tag">Veri Analizi</li><li data-i18n="chip.cleaning">Veri Temizleme</li></ul>
+                  <a href="#python-veri-temizleme" class="link-arrow stretched-link"><span data-i18n="bl.readMore">Devamını Oku</span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                </div>
+              </article>
+
+              <article class="article-card reveal" id="sosyal-medya-dinleme" data-category="sosyal-medya">
+                <img src="assets/img/blog/social-listening.svg" alt="" loading="lazy" width="400" height="170">
+                <div class="article-body">
+                  <div class="post-meta">
+                    <time datetime="2025-08-10" data-i18n="bl.d4">10 Ağustos 2025</time>
+                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="rt.5">5 dk</span></span>
+                  </div>
+                  <h3 data-i18n="bl.t4">Sosyal Medya Dinleme Nedir? Nasıl Yapılır?</h3>
+                  <p data-i18n="bl.e4">Sosyal medya dinleme, markalar için neden kritik? Hangi araçlar kullanılır ve süreç nasıl yönetilir?</p>
+                  <ul class="chip-list"><li data-i18n="p1.tag">Sosyal Medya</li><li data-i18n="chip.reputation">İtibar Yönetimi</li><li data-i18n="bl.f.tools">Araçlar</li></ul>
+                  <a href="#sosyal-medya-dinleme" class="link-arrow stretched-link"><span data-i18n="bl.readMore">Devamını Oku</span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                </div>
+              </article>
+
+              <article class="article-card reveal" id="excel-vba-raporlama" data-category="araclar">
+                <img src="assets/img/blog/excel-vba.svg" alt="" loading="lazy" width="400" height="170">
+                <div class="article-body">
+                  <div class="post-meta">
+                    <time datetime="2025-08-01" data-i18n="bl.d5">1 Ağustos 2025</time>
+                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="rt.6">6 dk</span></span>
+                  </div>
+                  <h3 data-i18n="bl.t5">Excel VBA ile Raporlama Otomasyonu</h3>
+                  <p data-i18n="bl.e5">Tekrarlayan rapor süreçlerini otomatikleştirerek zaman kazanın. Bu yazıda adım adım bir örnek üzerinden gidiyorum.</p>
+                  <ul class="chip-list"><li>Excel</li><li>VBA</li><li data-i18n="chip.auto">Otomasyon</li></ul>
+                  <a href="#excel-vba-raporlama" class="link-arrow stretched-link"><span data-i18n="bl.readMore">Devamını Oku</span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                </div>
+              </article>
+
+              <article class="article-card reveal" id="veri-analistinin-bir-gunu" data-category="kariyer">
+                <img src="assets/img/blog/analyst-day.svg" alt="" loading="lazy" width="400" height="170">
+                <div class="article-body">
+                  <div class="post-meta">
+                    <time datetime="2025-07-25" data-i18n="bl.d6">25 Temmuz 2025</time>
+                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="rt.5">5 dk</span></span>
+                  </div>
+                  <h3 data-i18n="bl.t6">Veri Analistinin Bir Günlük Çalışma Akışı</h3>
+                  <p data-i18n="bl.e6">Veri analistleri hangi araçları kullanır, gün içinde neler yapar? Kendi deneyimlerimden yola çıkarak bir günümü anlatıyorum.</p>
+                  <ul class="chip-list"><li data-i18n="bl.f.career">Kariyer</li><li data-i18n="p3.tag">Veri Analizi</li><li data-i18n="chip.worklife">İş Hayatı</li></ul>
+                  <a href="#veri-analistinin-bir-gunu" class="link-arrow stretched-link"><span data-i18n="bl.readMore">Devamını Oku</span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                </div>
+              </article>
+
+              <article class="article-card reveal" id="r-ggplot2" data-category="veri-gorsellestirme">
+                <img src="assets/img/blog/r-ggplot.svg" alt="" loading="lazy" width="400" height="170">
+                <div class="article-body">
+                  <div class="post-meta">
+                    <time datetime="2025-07-18" data-i18n="bl.d7">18 Temmuz 2025</time>
+                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="rt.6">6 dk</span></span>
+                  </div>
+                  <h3 data-i18n="bl.t7">R ile Veri Görselleştirme: ggplot2 Temelleri</h3>
+                  <p data-i18n="bl.e7">R ile etkileyici görselleştirmeler oluşturmak için ggplot2 paketinin temel kullanımını ele alıyorum.</p>
+                  <ul class="chip-list"><li>R</li><li data-i18n="p2.tag">Veri Görselleştirme</li><li>ggplot2</li></ul>
+                  <a href="#r-ggplot2" class="link-arrow stretched-link"><span data-i18n="bl.readMore">Devamını Oku</span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                </div>
+              </article>
+
+              <article class="article-card reveal" id="yapay-zeka-veri-analitigi" data-category="teknoloji icgoru">
+                <img src="assets/img/blog/ai-brain.svg" alt="" loading="lazy" width="400" height="170">
+                <div class="article-body">
+                  <div class="post-meta">
+                    <time datetime="2025-07-12" data-i18n="bl.d8">12 Temmuz 2025</time>
+                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="rt.8">8 dk</span></span>
+                  </div>
+                  <h3 data-i18n="bl.t8">Yapay Zeka ve Veri Analitiği: Fırsatlar ve Riskler</h3>
+                  <p data-i18n="bl.e8">Yapay zeka, veri analistlerinin işini nasıl dönüştürüyor? Sektör için fırsatlar ve dikkat edilmesi gereken riskleri inceliyorum.</p>
+                  <ul class="chip-list"><li data-i18n="chip.ai">Yapay Zeka</li><li data-i18n="bl.f.tech">Teknoloji</li><li data-i18n="p3.tag">Veri Analizi</li></ul>
+                  <a href="#yapay-zeka-veri-analitigi" class="link-arrow stretched-link"><span data-i18n="bl.readMore">Devamını Oku</span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                </div>
+              </article>
+
+              <article class="article-card reveal" id="seyahat-ve-analiz" data-category="yasam">
+                <img src="assets/img/blog/travel.svg" alt="" loading="lazy" width="400" height="170">
+                <div class="article-body">
+                  <div class="post-meta">
+                    <time datetime="2025-07-05" data-i18n="bl.d9">5 Temmuz 2025</time>
+                    <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="rt.4">4 dk</span></span>
+                  </div>
+                  <h3 data-i18n="bl.t9">Seyahat ve Analiz: Veriyi Sadece İş İçin Değil, Keşfetmek İçin de Kullanmak</h3>
+                  <p data-i18n="bl.e9">Seyahat planlamasında veri nasıl kullanılabilir? Rotalar, bütçe ve deneyimler için veri odaklı önerilerimi paylaşıyorum.</p>
+                  <ul class="chip-list"><li data-i18n="bl.f.life">Yaşam</li><li data-i18n="chip.travel">Seyahat</li><li data-i18n="chip.data">Veri</li></ul>
+                  <a href="#seyahat-ve-analiz" class="link-arrow stretched-link"><span data-i18n="bl.readMore">Devamını Oku</span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                </div>
+              </article>
+
+            </div>
+            <p class="pj-empty" data-filter-empty hidden data-i18n="bl.empty">Aramanıza uygun yazı bulunamadı.</p>
+          </div>
+
+          <!-- Sidebar -->
+          <aside class="sidebar">
+            <section class="side-card featured-post reveal" aria-labelledby="featured-title">
+              <h2 id="featured-title" data-i18n="bl.featured">Öne Çıkan Yazı</h2>
+              <img src="assets/img/blog/earth-night.svg" alt="" loading="lazy" width="400" height="225">
+              <div class="post-meta">
+                <time datetime="2025-09-03" data-i18n="b1.date">3 Eylül 2025</time>
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="rt.8">8 dk</span></span>
+              </div>
+              <h3 data-i18n="bl.ft.title">Veriyle Daha İyi Kararlar: 2025'te Öne Çıkan Trendler</h3>
+              <p data-i18n="bl.ft.desc">Veri analitiği dünyasında 2025 yılında öne çıkan trendleri ve markalar için ne anlama geldiğini inceliyorum.</p>
+              <a href="#veriyle-daha-iyi-kararlar" class="link-arrow stretched-link"><span data-i18n="bl.readMore">Devamını Oku</span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            </section>
+
+            <section class="side-card reveal" aria-labelledby="cat-title" data-filter-jump>
+              <h2 id="cat-title" data-i18n="bl.categories">Kategoriler</h2>
+              <ul class="cat-list">
+                <li><button type="button" data-filter="all" aria-pressed="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+                  <span data-i18n="pj.f.all">Tümü</span><span class="count" data-count="all"></span></button></li>
+                <li><button type="button" data-filter="veri-analizi" aria-pressed="false">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="M8 16v-4M12 16V8M16 16v-6"/></svg>
+                  <span data-i18n="pj.f.analysis">Veri Analizi</span><span class="count" data-count="veri-analizi"></span></button></li>
+                <li><button type="button" data-filter="sosyal-medya" aria-pressed="false">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6 6 0 0 1 3.5 6"/></svg>
+                  <span data-i18n="pj.f.social">Sosyal Medya</span><span class="count" data-count="sosyal-medya"></span></button></li>
+                <li><button type="button" data-filter="veri-gorsellestirme" aria-pressed="false">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M21 13A9 9 0 1 1 11 3v10z"/><path d="M14.5 2.5A8 8 0 0 1 21.5 9.5h-7z"/></svg>
+                  <span data-i18n="pj.f.viz">Veri Görselleştirme</span><span class="count" data-count="veri-gorsellestirme"></span></button></li>
+                <li><button type="button" data-filter="kariyer" aria-pressed="false">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 12h18"/></svg>
+                  <span data-i18n="bl.f.career">Kariyer</span><span class="count" data-count="kariyer"></span></button></li>
+                <li><button type="button" data-filter="araclar" aria-pressed="false">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0 5.2 5.2l-8.6 8.6a2.2 2.2 0 0 1-3.1-3.1l8.6-8.6a4 4 0 0 1 5.2-5.2l-2.8 2.8.3 2.4 2.4.3z"/></svg>
+                  <span data-i18n="bl.f.tools">Araçlar</span><span class="count" data-count="araclar"></span></button></li>
+                <li><button type="button" data-filter="teknoloji" aria-pressed="false">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></svg>
+                  <span data-i18n="bl.f.tech">Teknoloji</span><span class="count" data-count="teknoloji"></span></button></li>
+                <li><button type="button" data-filter="icgoru" aria-pressed="false">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg>
+                  <span data-i18n="bl.f.insight">İçgörü</span><span class="count" data-count="icgoru"></span></button></li>
+                <li><button type="button" data-filter="yasam" aria-pressed="false">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>
+                  <span data-i18n="bl.f.life">Yaşam</span><span class="count" data-count="yasam"></span></button></li>
+              </ul>
+            </section>
+
+            <section class="side-card newsletter reveal" aria-labelledby="nl-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4z"/></svg>
+              <h2 id="nl-title" data-i18n="bl.nl.title">Yeni yazılardan haberdar olun.</h2>
+              <p data-i18n="bl.nl.text">Analiz, içgörü ve teknoloji üzerine yeni yazılarımı kaçırmayın.</p>
+              <!-- Replace YOUR_FORM_ID with your Formspree form ID -->
+              <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" data-formspree>
+                <input type="hidden" name="_subject" value="Yeni bülten aboneliği">
+                <label class="sr-only" for="nl-email" data-i18n="bl.nl.label">E-posta adresi</label>
+                <input class="input" id="nl-email" type="email" name="email" required placeholder="E-posta adresiniz" autocomplete="email" data-i18n-attr="placeholder:bl.nl.placeholder">
+                <button type="submit" class="btn btn-outline btn-sm">
+                  <span data-i18n="bl.nl.button">Abone Ol</span>
+                  <svg class="icon icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </button>
+                <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+              </form>
+            </section>
+
+            <figure class="quote-card side-quote-card reveal">
+              <svg viewBox="0 0 32 24" fill="currentColor" aria-hidden="true"><path d="M0 24V14C0 6.5 4 1.6 11 0l1.4 3.3C8.3 4.8 6.4 7.7 6.2 11H12v13zm18 0V14c0-7.5 4-12.4 11-14l1.4 3.3c-4.1 1.5-6 4.4-6.2 7.7H30v13z"/></svg>
+              <p data-i18n="blog.quote">Veri, doğru soruları sorduğumuzda hikayeler anlatır.</p>
+              <cite>— Özgür Nurettin Öztürk</cite>
+            </figure>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= Footer ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <a href="index.html" class="brand">
+          <img src="assets/img/logo-fox-120.png" alt="" class="brand-logo" width="184" height="120">
+          <span>
+            <span class="brand-name">Özgür Nurettin Öztürk</span>
+            <span class="brand-tagline">DATA &amp; INSIGHTS</span>
+          </span>
+        </a>
+        <small class="footer-motto">Audentes Fortuna Iuvat</small>
+      </div>
+      <div class="footer-end">
+        <ul class="footer-social">
+          <li><a href="https://linkedin.com/in/ozgurozturk" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zm6.5 0h3.8v1.6h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.2c0-1.24-.02-2.84-1.73-2.84-1.73 0-2 1.35-2 2.75V21h-4z"/></svg>
+          </a></li>
+          <li><a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+          </a></li>
+          <li><a href="https://x.com/ozgurozturk" target="_blank" rel="noopener" aria-label="X (Twitter)">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.75 3h3.07l-6.7 7.66L22 21h-6.17l-4.83-6.32L5.47 21H2.4l7.17-8.2L2 3h6.33l4.37 5.78zm-1.08 16.2h1.7L7.4 4.73H5.57z"/></svg>
+          </a></li>
+          <li><a href="https://youtube.com/" target="_blank" rel="noopener" aria-label="YouTube">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor" fill-rule="evenodd" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.75 15.02V8.98L15.5 12z"/></svg>
+          </a></li>
+          <li><a href="mailto:info@ozgurnurettinozturk.com" aria-label="E-posta">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.5 5h17A1.5 1.5 0 0 1 22 6.5v.3l-10 6.3L2 6.8v-.3A1.5 1.5 0 0 1 3.5 5zM2 9.2l10 6.3 10-6.3v8.3a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 17.5z"/></svg>
+          </a></li>
+        </ul>
+        <small class="footer-copy">© <span data-year>2025</span> Özgür Nurettin Öztürk. <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 170" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0d0c14"/><stop offset="1" stop-color="#1a1726"/></linearGradient>
+<linearGradient id="scr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e1b4b"/><stop offset="1" stop-color="#0f0d24"/></linearGradient>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+<rect width="400" height="170" fill="url(#wall)"/>
+<ellipse cx="130" cy="80" rx="120" ry="50" fill="#6366f1" opacity=".22" filter="url(#blur)"/>
+<g font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="3.5" fill="#e5e7eb" opacity=".85">
+<text x="300" y="34">BETTER</text><text x="292" y="48">INSIGHTS</text><text x="290" y="62">BRIGHTER</text><text x="282" y="76">TOMORROWS</text>
+</g>
+<rect x="66" y="42" width="120" height="70" rx="3" fill="url(#scr)" stroke="#2e2b45"/>
+<rect x="78" y="73.6" width="7" height="24.4" fill="#a78bfa" opacity=".85"/><rect x="89" y="61.7" width="7" height="36.3" fill="#818cf8" opacity=".85"/><rect x="100" y="79" width="7" height="19" fill="#a78bfa" opacity=".85"/><rect x="111" y="80" width="7" height="18" fill="#818cf8" opacity=".85"/><rect x="122" y="60.5" width="7" height="37.5" fill="#a78bfa" opacity=".85"/><rect x="133" y="85.8" width="7" height="12.2" fill="#818cf8" opacity=".85"/><rect x="144" y="68.1" width="7" height="29.9" fill="#a78bfa" opacity=".85"/><rect x="155" y="86" width="7" height="12" fill="#818cf8" opacity=".85"/><rect x="166" y="82.3" width="7" height="15.7" fill="#a78bfa" opacity=".85"/>
+<rect x="192" y="56" width="74" height="48" rx="3" fill="url(#scr)" stroke="#2e2b45"/>
+<polyline points="200,90.7 206.5,84 213,85.2 219.5,82.4 226,77.6 232.5,80.9 239,73.9 245.5,70.4 252,68.9 258.5,65.2" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+<rect x="120" y="112" width="12" height="12" fill="#1a1824"/><rect x="224" y="104" width="10" height="14" fill="#1a1824"/>
+<rect y="122" width="400" height="48" fill="#0a0910"/>
+<rect y="122" width="400" height="2" fill="#2a2735"/>
+<circle cx="46" cy="92" r="15" fill="#050409"/>
+<path d="M8 170 C 10 132 22 114 46 110 C 70 114 84 132 86 170 Z" fill="#050409"/>
+<path d="M46 77 a15 15 0 0 1 14 10" fill="none" stroke="#818cf8" stroke-width="1.4" opacity=".6"/>
+</svg>

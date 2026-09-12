@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 170" preserveAspectRatio="xMidYMid slice">
+<defs>
+<radialGradient id="g" cx=".5" cy=".3" r=".65"><stop offset="0" stop-color="#16a34a" stop-opacity=".5"/><stop offset="1" stop-color="#16a34a" stop-opacity="0"/></radialGradient>
+<linearGradient id="kb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#201d2a"/><stop offset="1" stop-color="#0a090f"/></linearGradient>
+</defs>
+<rect width="400" height="170" fill="#09080e"/>
+<rect width="400" height="170" fill="url(#g)"/>
+<polygon points="89,12 323,4 329,129 95,138" fill="#1b1924" stroke="#2e2b3a"/>
+<g transform="matrix(1 -0.0324 0.0556 1 98 20)">
+<rect width="216" height="108" fill="#08110c"/>
+<g transform="translate(18 22)">
+<rect x="14" y="0" width="34" height="48" rx="3" fill="#21a366"/>
+<rect x="14" y="0" width="34" height="12" rx="3" fill="#33c481"/>
+<rect x="14" y="36" width="34" height="12" rx="3" fill="#185c37"/>
+<rect x="0" y="10" width="28" height="28" rx="3" fill="#107c41"/>
+<text x="14" y="31" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#fff" text-anchor="middle">X</text>
+</g><path d="M76 48 h26" stroke="#86efac" stroke-width="1.5" stroke-dasharray="3 3"/><path d="m98 44 5 4-5 4" fill="none" stroke="#86efac" stroke-width="1.5"/><rect x="112" y="18" width="92" height="72" rx="4" fill="#0f1f17" stroke="#1f3a2a"/><rect x="120" y="72" width="6" height="12" fill="#22c55e" opacity="0.74"/><rect x="130" y="64.1" width="6" height="19.9" fill="#22c55e" opacity="0.67"/><rect x="140" y="58" width="6" height="26" fill="#22c55e" opacity="0.69"/><rect x="150" y="50" width="6" height="34" fill="#22c55e" opacity="0.85"/><rect x="160" y="46.5" width="6" height="37.5" fill="#22c55e" opacity="0.88"/><rect x="170" y="45.6" width="6" height="38.4" fill="#22c55e" opacity="0.79"/><rect x="180" y="43" width="6" height="41" fill="#22c55e" opacity="0.68"/><rect x="190" y="30.4" width="6" height="53.6" fill="#22c55e" opacity="0.96"/>
+</g>
+<polygon points="66,140 352,129 400,170 8,170" fill="url(#kb)"/>
+<g stroke="#2c2937" stroke-width="1" opacity=".8">
+<line x1="80" y1="148" x2="345" y2="138"/><line x1="70" y1="156" x2="358" y2="145"/><line x1="58" y1="164" x2="370" y2="152"/>
+</g>
+</svg>
